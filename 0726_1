@@ -1,0 +1,50 @@
+git- config --global user.name "Ry1"
+git config --global user.name "Ry1"
+git config --global user.email "ryow2u@gmail.com"
+vim .gitignore
+git status
+git commit -m "blg1"
+git add -all .
+git add --all .
+git commit -m "blg2"
+git remote add origin  https://github.com/RyotaKabe/x1.git
+git push -u origin master
+ls
+myvenv\Scripts\activate
+ls
+ls blog
+vim mysite\settings.py
+vim blog/models.py
+python manage.py makemigrations blog
+python manage.py migrate blog
+git --add all .
+git commit -m "blg3"
+start
+python manage.py createsuperuser
+vim mysite/urls.py
+vim blog\urls.py
+vim
+ls mysite
+vim blog\urls.py
+vim blog/views.py
+git branch x1view1
+git branch -a
+git checkout x1view1
+git branch -a
+git merge master
+git commit -m "mk_blog_list.html"
+git --add all .
+git add --all .
+git commit -m "mk_blog_list.html"
+git merge master
+git checkout master
+git status
+git branch -a
+git merge x1view1
+git checkout x1view1
+git commit -m "mk_blog_list.html 2"
+git checkout master
+git merge x1view1
+git push
+mkdir doskeys
+doskey /h > 0726_1
