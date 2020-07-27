@@ -1,0 +1,50 @@
+vim settings.py
+python manage.py runserver
+cd ../
+python manage.py migrate
+python manage.py runserver
+python manage.py startapp blog
+ls
+ls mysite
+vim mysite\settings.py
+ls
+cd blog
+ls
+vim models.py
+cd ../
+python manage.py makemigrations blog
+python manage.py migrate blog
+python manage.py makemigrations blog
+python manage.py migrate blog
+python manage.py makemigrations blog
+python manage.py makemigrations
+python manage.py showmigrations
+python manage.py makemigrations blog
+vim mysite\settings.py
+python manage.py makemigrations
+cd mysite
+python manage.py makemigrations blog
+cd ../
+python manage.py makemigrations blog
+manage.py makemigrations blog
+python manage.py makemigrations blog
+python manage.py migrate blog
+python manage.py runserver
+python manage.py createsuperuser
+python manage.py runserver
+git init
+git config --global user.name "Ry"
+git config --global user.email "ryow2u@gmail.com"
+ls
+ls -a
+vim .gitignore
+git status
+git add -all
+git add -all .
+git add --all .
+vim
+echo $HOME
+git commit -m "x app, firstcommit"
+git remote add origin https://github.com/RyotaKabe/stdy_blg.git
+git push -u origin master
+doskey /h > cmd1.txt
